@@ -45,13 +45,9 @@ table {
 
 /*Begin my code*/
 
-body {
-  height: 800px;
-  width: 100%;
 
 }
 .everything {
-  height: 100%;
   width: 100%;
   z-index: 1;
   font-family: arial, sans-serif;
@@ -77,6 +73,17 @@ body {
 
 }
 
+.png {
+  height: 25px;
+}
+
+.png.s {
+  height: 35px;
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
+
 .main_content {
   display: block;
   width: 100%;
@@ -90,7 +97,7 @@ body {
 
 #logo {
   height: 70px;
-  margin-right: 130px;
+/*  margin-right: 130px; */
 }
 
 
@@ -131,11 +138,13 @@ body {
 .menubar li {
   display: inline;
   list-style-type: none;
+  align-items: center;
+  align-self: center;
 }
 
 .menubar li a {
   text-decoration: none;
-  color: #5f6368;
+  color: #000000de;
 }
 
 .lm {
@@ -143,8 +152,9 @@ body {
   float: left;
 }
 .rm {
-  padding: 0 10px;
+  padding: 0 8px;
   float: right;
+
 }
 
 .footer {
@@ -155,6 +165,8 @@ body {
   z-index: 3;
   font-family: arial, sans-serif;
   font-size: 13px;
+  position: absolute;
+  bottom: 0px;
 
 
 

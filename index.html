@@ -5,34 +5,62 @@
     <title>Google</title>
   </head>
     <body>
-      <div class="menubar">
-        <div class="left_menu">
-          <a href="google.com">About</a>
-          <a href="google.com">Store</a>
-        </div>
-        <div class="right_menu">
-          <a href="google.com">Gmail</a>
-          <a href="google.com">Images</a>
-            
-
-      </div>
-      <div class="container">
-        <div class="logo">
+      <div class="everything">
+        <div class="menubar">
+          <ul>
+            <li class="lm"><a href="google.com">About</a></li>
+            <li class="lm"><a href="google.com">Store</a></li>
+            <li class="rm"><a href="google.com">Gmail</a></li>
+            <li class="rm"><a href="google.com">Images</a></li>
+          </ul>
+        </div> <!-- closes menubar -->
+  <!-- Menu stuff -->
+  <!--          <div class="menubar">
+              <div class="left_menu">
+                <a href="google.com">About</a>
+                <a href="google.com">Store</a>
+              </div>
+              <div class="right_menu">
+                <a href="google.com">Gmail</a>
+                <a href="google.com">Images</a>
+              </div>
+            </div> <!--closes menur bar -->
+      <!-- Menu stuff  end -->
+    <div class="main_content">
+      <div class="logo">
         <img id="logo" src="css/google_logo">
-         </div>
-       <div class="searchbar">
-        <form>
+      </div> <!-- closes logo -->
+      <div class="searchbar">
+        <div class="input">
           <form action="/action_page.php" method="get">
-            <input type="text" name="search" class="searchbar"> <br>
-            <input type="submit" value="Google Search" class="button">
-            <input type="submit" value="I'm feeling Lucky" class="button">
+            <input id="searchbar" type="text" name="search" class="searchbar">
           </form>
-         </div>
+        </div> <!-- ends input -->
+      <div class="micdiv">
+        <!--<span class="mic">-->
+        <a href="google.com"><img id="mic" src="./css/Google_mic.svg.png"></a>
+        <!--</span> -->
+      </div>
 
       </div>
+      <div class="button">
+        <form>
+          <input id="googleb" type="submit" value="Google Search">
+          <input id="lucky" type="submit" value="I'm feeling Lucky">
+        </form>
+      </div>
+    </div>
+  </div> <!-- for everything -->
       <footer>
+        <div class="footer">
+          <ul>
+            <li class="lf"><a href="google.com">Advertising</a></li>
+            <li class="lf"><a href="google.com">Business</a></li>
+            <li class="rf"><a href="google.com">Privacy</a></li>
+            <li class="rf"><a href="google.com">Terms</a></li>
+            <li class="rf"><a href="google.com">Settings</a></li>
+          </ul>
+        </div>
         </footer>
-
-
     </body>
 </html>
